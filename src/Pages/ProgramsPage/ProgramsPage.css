@@ -1,0 +1,24 @@
+.programs-wrapper {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 999px) {
+  .programs-wrapper {
+    grid-template-columns: 2fr 3fr;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .programs-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
